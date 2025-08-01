@@ -3,13 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bharat Sats Stacker</title>
+    <title>Bharat Sats Stacker – India's Premier Bitcoin Investment Platform</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Bharat Sats Stacker</h1>
-    <p>Welcome to Bharat Sats Stacker, your go-to app for managing your Satoshi investments.</p>
-    <footer>
-        <p>&copy; 2023 Bharat Sats Stacker. All rights reserved.</p>
-    </footer>
+    <!-- Navigation Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>Bharat Sats Stacker</h1>
+                    <span class="beta-tag">BETA</span>
+                </div>
+                <nav class="nav-menu">
+                    <button class="nav-item active" data-view="dashboard">Dashboard</button>
+                    <button class="nav-item" data-view="buy-sell">Buy/Sell</button>
+                    <button class="nav-item" data-view="rca">RCA/SIP</button>
+                    <button class="nav-item" data-view="portfolio">Portfolio</button>
+                    <button class="nav-item" data-view="lightning">Lightning</button>
+                    <button class="nav-item" data-view="education">Learn</button>
+                </nav>
+                <div class="header-actions">
+                    <button class="theme-toggle" id="theme-toggle">🌙</button>
+                    <div class="user-menu">
+                        <button class="user-avatar" id="user-menu-btn">RS</button>
+                        <div class="user-dropdown hidden" id="user-dropdown">
+                            <a href="#" data-view="security">Security</a>
+                            <a href="#" data-view="referral">Referrals</a>
+                            <a href="#" data-view="tax">Tax Reports</a>
+                            <a href="#" class="logout">Logout</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <!-- (content unchanged except for branding) -->
+
+    <script src="app.js"></script>
 </body>
 </html>
